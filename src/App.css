@@ -1,0 +1,147 @@
+.main{
+  h4{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+  }
+
+  .detail{
+    display: flex;
+    justify-content: center;
+    p{
+      margin: 0 10px;
+    }
+  }
+
+  .form-control{
+    margin: 10px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    input{
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      margin-left: 20px;
+    }
+
+    button{
+      margin: 0 10px;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 10px;
+      color: #fff;
+    }
+
+    .btn-create{
+      background-color: blue;
+    }
+
+    .btn-reset{
+      background-color: orange;
+    }
+
+  }
+
+  width: 80vw;
+  height: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  .form-play{
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+
+
+
+    .row{
+      width: 100%;
+      /* height: 10px; */
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+
+      .box{
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        p{
+          
+        }
+
+        .line-row{
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          background-color: red;
+        }
+
+        .line-col{
+          position: absolute;
+          width: 2px;
+          height: 100%;
+          background-color: red;
+        }
+
+        .line-cheo1{
+          /* position: absolute;
+          background-color: red;
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            border-left: 1px solid black;
+            transform: rotate(45deg);
+            transform-origin: left bottom; */
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80px;
+            height: 2px;
+            background-color: red;
+            transform: rotate(45deg);
+            transform-origin: 0 0;
+
+        }
+
+        .line-cheo2{
+          position: absolute;
+            top: 0;
+            right: 0;
+            width: 71px;
+            height: 2px;
+            background-color: red;
+            transform: rotate(-45deg);
+            transform-origin: top right;
+
+        }
+      }
+    }
+  }
+}
+
+.x {
+  font-size: 20px;
+  color: blue;
+  font-weight: 800 !important;
+}
+
+.o{
+  font-size: 20px;
+  color: red;
+}
